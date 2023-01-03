@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+
+    <div class="container">
+        <h1 id="titleName"> NEO PHOTOGRAPHY</h1>
+        <h2 id="titleDescription">Beautiful Commercial Photography</h2>
+        <a onclick="myFunction()" id="viewWork">View Work</a>
+    </div>
+    <div id="images">
+    <div class="image">
+        <img src="https://assets.entrepreneur.com/content/3x2/2000/20150814180248-city-view-traveling-office-work-morning.jpeg" alt="pic1" id="backGroundImage" >
+    </div>
+    <div class="image">
+        <h3 id="ourWork"> Our Work</h3>
+        <img src="https://s-i.huffpost.com/gen/1835372/images/o-WORK-facebook.jpg" alt="pic2" id="firstImage" >
+    </div>
+    <div class="image">
+        <img src="https://th.bing.com/th/id/OIP.-f1W5a3c7LPqiuK5lIOdgAHaJ3?pid=ImgDet&rs=1" alt="pic3" id="secondImage"><p id="firstImageName"> Food Photography </p>
+        
+    </div>
+    <div class="image">
+        <img src="https://th.bing.com/th/id/R.37333782763cc60adc684039c9770686?rik=M8Hrcf0UfT%2fuSQ&riu=http%3a%2f%2fd3exkutavo4sli.cloudfront.net%2fwp-content%2fuploads%2f2013%2f04%2fDubai-aerial-shot.jpg&ehk=AL3SyUlpNjA4PYA4qBnbMr5CYLimNVGZ%2fFLJiTWHISI%3d&risl=&pid=ImgRaw&r=0" alt="pic4" id="thirdImage">
+        <p id="secondImageName">Aerial Photography</p>
+    </div>
+    <div class="image">
+        <img src="https://th.bing.com/th/id/R.1c75150110e6107d0b5a2a37a315b9f7?rik=FioGizsLt8Iqng&riu=http%3a%2f%2fwebneel.com%2fdaily%2fsites%2fdefault%2ffiles%2fimages%2fdaily%2f07-2015%2f24-abstract-photography-by-teddy-hariyanto.jpg&ehk=UGYlhFmSwVYttpyq5pwIjXjBCFrTe6xzLU42ydo88rE%3d&risl=&pid=ImgRaw&r=0" alt="pic5" id="fourthImage">
+        <p id="thirdImageName">Abstract Photography</p>
+    </div>
+</div>
+</div>
+
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("images");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</html>
